@@ -10,9 +10,9 @@ function math () {
   diameter = document.getElementById('input').value
   diameter = parseInt(diameter)
   radius = (diameter) / 2
-  area = (pi * radius**2)
+  area = (pi * radius ** 2)
   circum = (2 * pi * radius)
 
-  document.getElementById('answer_area').innerHTML = area 
-  document.getElementById('answer_circum').innerHTML = circum
+  document.getElementById('answer-area').innerHTML = area
+  document.getElementById('answer-circum').innerHTML = circum
 }
