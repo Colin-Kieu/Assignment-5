@@ -14,7 +14,7 @@ function math () {
   radius = (diameter) / 2
   area = (Math.PI * radius ** 2)
   circum = (2 * Math.PI * radius)
-  // all the math, math.pi is the pi function built in js 
+  // all the math, math.pi is the pi function built in js
   document.getElementById('answer-area').innerHTML = area
   document.getElementById('answer-circum').innerHTML = circum
   // this is how the answer will be displayed
